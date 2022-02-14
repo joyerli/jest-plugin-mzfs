@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jest-plugin-fs插件 __getFiles函数 1`] = `
+Object {
+  "/src/test.txt": "====",
+}
+`;
+
+exports[`jest-plugin-fs插件 __mock 1`] = `
+Array [
+  "page1",
+  "world.js",
+]
+`;
+
+exports[`jest-plugin-fs插件 __picker 1`] = `
+Array [
+  "test.spec.js",
+]
+`;

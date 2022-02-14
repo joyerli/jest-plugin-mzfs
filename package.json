@@ -1,0 +1,50 @@
+{
+  "name": "jest-plugin-mzfs",
+  "version": "0.1.0",
+  "description": "jest mock mz/fs插件",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "lib/",
+    "!/**/__test__/",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "jest",
+    "prepub": "npm run lint && npm run test",
+    "pub": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyerli/jest-plugin-mzfs.git"
+  },
+  "keywords": [
+    "upman",
+    "jest",
+    "jest plugin",
+    "jest plugin fs",
+    "fs"
+  ],
+  "author": "joyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joyerli/jest-plugin-mzfs/issues"
+  },
+  "homepage": "https://github.com/joyerli/jest-plugin-mzfs#readme",
+  "dependencies": {
+    "memfs": "^3.0.3",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^24.9.0"
+  },
+  "gitHead": "91c6d0cf53a2e751e7cec78f1a631a80579cfc31"
+}
